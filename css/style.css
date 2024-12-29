@@ -44,8 +44,8 @@ nav {
 
 nav ul {
     background-color: #0d0d0d;
-    display: grid;
-    grid-template-columns: 33.5% 33% 33.5%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .buttons:hover {
@@ -58,9 +58,10 @@ nav ul li:hover a {
 
 nav ul li {
     list-style: none;
-    font-size: 121%;
+    font-size: 100%;
     text-align: center;
-    padding: 3%;
+    padding: 1%;
+    flex: 1;
 }
 
 nav ul li a {
