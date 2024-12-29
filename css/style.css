@@ -16,9 +16,9 @@ header div>a {
     text-align: center;
     color: #333142;
     font-family: "Space Mono", serif;
-  font-weight: 300;
-  font-style: normal;
-    
+    font-weight: 300;
+    font-style: normal;
+
 }
 
 header div>a:hover {
@@ -36,10 +36,12 @@ header>div>img {
     height: 100%;
     object-fit: cover;
 }
-nav{
+
+nav {
     border: #ffffff;
     border-style: outset;
 }
+
 nav ul {
     background-color: #0d0d0d;
     display: grid;
@@ -65,15 +67,17 @@ nav ul li a {
     color: #bfaddd;
     text-decoration: none;
     font-family: "Space Mono", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
+
 section ul {
     list-style: none;
     text-decoration: none;
     text-align: center;
 }
-section{
+
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,13 +85,12 @@ section{
 }
 
 h1 {
-    color:#2d212d;
+    color: #2d212d;
     padding: 0.5%;
     font-family: "Orbitron", serif;
-    font-optical-sizing: auto;
     font-style: normal;
     text-align: center;
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
 #hero_section div {
@@ -102,62 +105,67 @@ section img {
     width: 80%;
     height: auto;
     border-radius: 5%;
-    border-style:outset;
+    border-style: outset;
 }
 
-h2{
+h2 {
     color: #333142;
     margin-top: 3%;
     font-family: "Orbitron", serif;
-    font-optical-sizing: auto;
     font-style: normal;
 }
-h3{
+
+h3 {
     margin-top: 0.5%;
-    color:#072359;
+    color: #072359;
     font-family: "Space Mono", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
-p{
+
+p {
     margin-top: 1%;
     margin-left: 16%;
     margin-right: 16%;
     font-family: "Space Mono", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
-section a{
-    color:#072359;
+section a {
+    color: #072359;
     font-family: "Space Mono", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
-footer{
+
+footer {
     margin-top: 5%;
-    margin-bottom:1%;
+    margin-bottom: 1%;
     text-align: center;
-    background-color:#bfaddd;
+    background-color: #bfaddd;
     padding: 2%;
     font-family: "Space Mono", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
-#to_top{
+
+#to_top {
     color: #ffffff;
     background-color: #072359;
     padding: 2%;
     border-radius: 60%;
     font-size: 140%;
     margin-left: 90%;
-    position:fixed;
+    position: fixed;
     bottom: 20px;
 }
-#parallel img{
-    width:40%;
+
+#parallel img {
+    width: 40%;
 }
-#theories img{
-    width:40%;
-    height:10%;
+
+#theories img {
+    width: 40%;
+    height: 10%;
 }
